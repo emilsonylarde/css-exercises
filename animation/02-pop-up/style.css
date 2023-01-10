@@ -26,6 +26,17 @@ button {
   font-weight: 600;
 }
 
+/*Solution*/
+
+.popup-modal {
+  transition: transform .3s ease-in-out, opacity .4s ease;
+  transform: translate(-50%, -100%);
+}
+
+.popup-modal.show {
+  transform: translate(-50%, -50%);
+}
+
 .popup-modal {
   padding: 32px 64px;
   background-color: white;
